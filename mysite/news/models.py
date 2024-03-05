@@ -13,7 +13,7 @@ class News(models.Model):
         'Category',
         on_delete=models.PROTECT,
         verbose_name='Категория',
-        null=True, )
+    )
 
     def get_absolute_url(self):
         return reverse('view_news', kwargs={'news_id': self.pk})
