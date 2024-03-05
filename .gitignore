@@ -1,3 +1,5 @@
 venv/
 mysite/db.sqlite3
 .env
+__pycache__/
+*.pyc
